@@ -1,0 +1,47 @@
+Question 1
+Social Network:- Social Networking Big Data is a collection of very huge data sets with a great diversity of types from social networks.
+Tapping user profiles from Facebook, LinkedIn, Yahoo, Google, and specific-interest social or travel sites.
+Software as a Service (SaaS) and cloud applications:- Systems like Salesforce.com, Netsuite, SuccessFactors, etc.all represent data
+that’s already in the Cloud but is difficult to move and merge with internal data. 
+Legacy documents:—Archives of statements, insurance forms, medical record and customer correspondence are still an untapped resource. 
+Media:- Images, Videos, Audios Flash etc.
+Data Storage :- SQL, Hadoop etc.
+
+Question 2:
+3 V's of Big Data
+1) Volume :- We can find data in the format of videos, musics and large images on our social media channels. It is very common to have
+             Terabytes and Petabytes of the storage system for enterprises.As the database grows the applications and architecture built
+             to support the data needs to be reevaluated quite often. This big volume  represent Big Data.
+2) Velocity :- Velocity is the measure of how fast the data is coming in. Today, people reply on social media to update them with the
+               latest happening. On social media sometimes a few seconds old messages (a tweet, status updates etc.) is not something
+               interests users. They often discard old messages and pay attention to recent updates. The data movement is now almost
+               real time and the update window has reduced to fractions of the seconds. This high velocity data represent Big Data.
+3) Variety :- Data can be stored in multiple format. For example database, excel, csv, access or for the matter of the fact, it can be
+              stored in a simple text file. It will be easy to do so if we have data in the same format, however it is not the case
+              most of the time. The real world have data in many different formats and that is the challenge we need to overcome with
+              the Big Data. This variety of the data represent  represent Big Data.
+              
+              
+Question 3:
+Horizontal and Vertical Scaling:-
+Horizontal scaling means that you scale by adding more machines into your pool of resources whereas Vertical scaling means that you
+scale by adding more power (CPU, RAM) to an existing machine.
+Suppose you have 10TB database in a mid size amazon machine instance.You can easily say that high query rates can exhaust your servers
+CPU power, can consume all of your RAM and sometimes you will find the working data set is exceeding your storage capacity.
+So, now this point, you are thinking about adding more CPU cores, more Storage and more RAM to that instance to improve the query
+performance.This is what we called Vertical scaling , means adding more CPU power and storage resource to a single instance.
+Horizontal scaling divides the data set and distributes the data over multiple servers, or shards. So, you can create 10 instance each
+with 1TB database. Each shard is an independent database, and collectively, the shards make up a single logical database.
+
+
+Question 4:
+Need and Working of Hadoop
+ The Hadoop platform was designed to solve problems where you have a lot of data — perhaps a mixture of complex and structured data
+ — and it doesn’t fit nicely into tables. It’s for situations where you want to run analytics that are deep and computationally
+ extensive, like clustering and targeting.
+ The way HDFS works is by having a main « NameNode » and multiple « data nodes » on a commodity hardware cluster. All the nodes
+ are usually organized within the same physical rack in the data center. Data is then broken down into separate « blocks » that are
+ distributed among the various data nodes for storage. Blocks are also replicated across nodes to reduce the likelihood of failure.
+The NameNode is the «smart» node in the cluster. It knows exactly which data node contains which blocks and where the data nodes are
+located within the machine cluster. The NameNode also manages access to the files, including reads, writes, creates, deletes and
+replication of data blocks across different data nodes.
